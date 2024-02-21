@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import AboutBanner from "./elements/AboutBanner";
-import AboutBannerImg from "../assets/img/AboutBanner.png";
+import AboutBannerImg from "../assets/img/AboutBanner2.png";
 import AboutVision from "./elements/AboutVision";
 import AboutStats from "./elements/AboutStats";
 import AboutHistory from "./elements/AboutHistory";

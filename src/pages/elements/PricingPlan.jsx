@@ -9,18 +9,18 @@ const PricingPlan = () => {
       <section className="bg__secondary2 py-5">
         <div className="container py-lg-5">
           <div className="row mx-0 justify-content-center">
-            <div className="col-xl-11 col-xxl-9">
+            <div className="col-xl-11 col-xxl-9 px_0">
               <div className="text-center">
                 <Badge color="green" content="Pricing" textwhite />
                 <h1 className="cabin mt-3">Our Pricing Plan</h1>
                 <div className="row gap-lg-0 gap-4 mt-4 mx-0">
-                  <div className="col-lg-4">
+                  <div className="col-lg-4 ">
                     <Plan />
                   </div>
-                  <div className="col-lg-4">
+                  <div className="col-lg-4 ">
                     <Plan />
                   </div>
-                  <div className="col-lg-4">
+                  <div className="col-lg-4 ">
                     <Plan />
                   </div>
                 </div>

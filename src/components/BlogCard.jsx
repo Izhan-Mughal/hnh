@@ -4,7 +4,10 @@ import { Link } from "react-router-dom";
 const BlogCard = (props) => {
   return (
     <>
-      <Link className="d-block blog__card w-100 text-decoration-none text-reset">
+      <Link
+        to="/blogsingle"
+        className="d-block blog__card w-100 text-decoration-none text-reset"
+      >
         <img src={props.blogimg} className="blog__img" alt="Blog Image" />
         <div className="blog__content">
           <h2 className="cabin">{props.blogheading}</h2>

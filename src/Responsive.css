@@ -1,3 +1,8 @@
+@media (min-width: 750px) {
+  .newsletter__background {
+    height: 100%;
+  }
+}
 @media (min-width: 990px) {
   .navbar-brand {
     margin-left: 15%;
@@ -16,6 +21,15 @@
 @media (min-width: 1367px) {
   .about__img {
     width: 90%;
+  }
+  .align-items-xl-stretch {
+    align-items: stretch !important;
+  }
+  .whitespace {
+    white-space: nowrap;
+  }
+  .newsletter__background {
+    height: 100%;
   }
 }
 @media (min-width: 1400px) {
@@ -69,14 +83,7 @@
     padding: 5px 15px;
     margin: 5px 15px;
   }
-  .newsletter__background {
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
-    z-index: 0;
-    bottom: 0;
-  }
+
   .about__img {
     width: 100%;
   }
@@ -214,6 +221,14 @@
   }
 }
 @media (max-width: 450px) {
+  .newsletter__background {
+    position: absolute;
+    right: 0;
+    top: unset;
+    height: 50%;
+    z-index: 0;
+    bottom: 0;
+  }
   #HomeServiceSlider .swiper-button-next {
     background: rgba(255, 255, 255, 0.096);
     border-radius: 50%;
@@ -232,7 +247,22 @@
   .w_100 {
     width: 100%;
   }
-
+  .banner__home {
+    min-height: max-content;
+    max-height: max-content;
+    background-size: cover;
+    image-rendering: -webkit-optimize-contrast;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+  }
+  .about__banner {
+    min-height: max-content;
+    padding-bottom: 30px;
+  }
+  .px_0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   .videobg {
     position: absolute;
     z-index: 1;

@@ -73,10 +73,13 @@ const CaseTabs = () => {
               </div>
               <div className="mt-5 pt-lg-3">
                 <div className="bg__secondary2 px-2 py-3 rounded-5 w-100">
-                  <div className="row mx-0 gap-lg-0 gap-4">
+                  <div className="row mx-0 gap-md-0 gap-4">
                     {activeClass === 1 ? (
                       <>
-                        <Link to="/casestudysingle" className="col-lg-4 d-block">
+                        <Link
+                          to="/casestudysingle"
+                          className="col-lg-4 col-md-6 d-block"
+                        >
                           <div
                             className="card__tab"
                             data="Taxes"
@@ -89,7 +92,10 @@ const CaseTabs = () => {
                             <p className="category__genre lato">Business</p>
                           </div>
                         </Link>
-                        <Link to="/casestudysingle" className="col-lg-4 d-block">
+                        <Link
+                          to="/casestudysingle"
+                          className="col-lg-4 col-md-6 d-block"
+                        >
                           <div
                             className="card__tab"
                             data="Taxes"
@@ -102,7 +108,10 @@ const CaseTabs = () => {
                             <p className="category__genre lato">Business</p>
                           </div>
                         </Link>
-                        <Link to="/casestudysingle" className="col-lg-4 d-block">
+                        <Link
+                          to="/casestudysingle"
+                          className="col-lg-4 col-md-6 mt-md-3 mt-lg-0 d-block"
+                        >
                           <div
                             className="card__tab"
                             data="Taxes"
@@ -117,7 +126,10 @@ const CaseTabs = () => {
                         </Link>
                       </>
                     ) : activeClass === 2 ? (
-                      <Link to="/casestudysingle" className="col-lg-4 d-block">
+                      <Link
+                        to="/casestudysingle"
+                        className="col-lg-4 col-md-6 d-block"
+                      >
                         <div
                           className="card__tab"
                           data="Taxes"
@@ -131,7 +143,10 @@ const CaseTabs = () => {
                         </div>
                       </Link>
                     ) : activeClass === 3 ? (
-                      <Link to="/casestudysingle" className="col-lg-4 d-block">
+                      <Link
+                        to="/casestudysingle"
+                        className="col-lg-4 col-md-6 d-block"
+                      >
                         <div
                           className="card__tab"
                           data="Taxes"
@@ -145,7 +160,10 @@ const CaseTabs = () => {
                         </div>
                       </Link>
                     ) : activeClass === 4 ? (
-                      <Link to="/casestudysingle" className="col-lg-4 d-block">
+                      <Link
+                        to="/casestudysingle"
+                        className="col-lg-4 col-md-6 d-block"
+                      >
                         <div
                           className="card__tab"
                           data="Taxes"
@@ -162,7 +180,7 @@ const CaseTabs = () => {
                       <>
                         <Link
                           to="/casestudysingle"
-                          className="col-lg-4 d-block text-decoration-none"
+                          className="col-lg-4 col-md-6 d-block text-decoration-none"
                         >
                           <div
                             className="card__tab"
@@ -178,7 +196,7 @@ const CaseTabs = () => {
                         </Link>
                         <Link
                           to="/casestudysingle"
-                          className="col-lg-4 d-block text-decoration-none"
+                          className="col-lg-4 col-md-6 d-block text-decoration-none"
                         >
                           <div
                             className="card__tab"
@@ -194,7 +212,7 @@ const CaseTabs = () => {
                         </Link>
                         <Link
                           to="/casestudysingle"
-                          className="col-lg-4 d-block text-decoration-none"
+                          className="col-lg-4 col-md-6 mt-md-3 mt-lg-0 d-block text-decoration-none"
                         >
                           <div
                             data="Financial"
@@ -210,7 +228,7 @@ const CaseTabs = () => {
                         </Link>
                         <Link
                           to="/casestudysingle"
-                          className="col-lg-4 mt-lg-3 d-block text-decoration-none"
+                          className="col-lg-4 col-md-6 mt-md-3 d-block text-decoration-none"
                         >
                           <div
                             data="Audit"
@@ -226,7 +244,7 @@ const CaseTabs = () => {
                         </Link>
                         <Link
                           to="/casestudysingle"
-                          className="col-lg-4 mt-lg-3 d-block text-decoration-none"
+                          className="col-lg-4 col-md-6 mt-md-3 d-block text-decoration-none"
                         >
                           <div
                             className="card__tab"
@@ -241,7 +259,7 @@ const CaseTabs = () => {
                         </Link>
                         <Link
                           to="/casestudysingle"
-                          className="col-lg-4 mt-lg-3 d-block text-decoration-none"
+                          className="col-lg-4 col-md-6 mt-md-3 d-block text-decoration-none"
                         >
                           <div
                             className="card__tab"

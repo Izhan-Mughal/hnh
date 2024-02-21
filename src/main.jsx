@@ -16,6 +16,8 @@ import CaseStudy from "./pages/CaseStudy.jsx";
 import CaseStudySingle from "./pages/CaseStudySingle.jsx";
 import Blogs from "./pages/Blogs.jsx";
 import BlogSingle from "./pages/BlogSingle.jsx";
+import Contact from "./pages/Contact.jsx";
+import Page404 from "./pages/Page404.jsx";
 
 const router = createBrowserRouter([
   {
@@ -57,6 +59,14 @@ const router = createBrowserRouter([
   {
     path: "/blogsingle",
     element: <BlogSingle />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
+  },
+  {
+    path: "/*",
+    element: <Page404 />,
   },
 ]);
 

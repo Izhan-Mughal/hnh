@@ -36,7 +36,11 @@ const Newsletter = () => {
                     </div>
                   </div>
                 </div>
-                <img src={NewsBack} className="newsletter__background" alt="" />
+                <img
+                  src={NewsBack}
+                  className="newsletter__background"
+                  alt=""
+                />
               </div>
             </div>
           </div>

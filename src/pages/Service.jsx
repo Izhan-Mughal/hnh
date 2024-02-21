@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import AboutBanner from "./elements/AboutBanner";
-import ServiceBannerImg from "../assets/img/ServiceBanner.png";
+import ServiceBannerImg from "../assets/img/ServiceBanner2.png";
 import HomeServices from "./elements/HomeServices";
 import ServiceProcess from "./elements/ServiceProcess";
 import PricingPlan from "./elements/PricingPlan";

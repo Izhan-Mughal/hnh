@@ -3,6 +3,7 @@ import Person1 from "../../assets/img/person1.png";
 import Person2 from "../../assets/img/person2.png";
 import Person3 from "../../assets/img/person3.png";
 import CompanyDiv from "../../components/CompanyDiv";
+import { Link } from "react-router-dom";
 
 const TeamMeet = () => {
   return (
@@ -11,7 +12,7 @@ const TeamMeet = () => {
         <div className="container">
           <div className="row mx-0 justify-content-center">
             <div className="col-xl-11 col-xxl-9">
-              <div className="d-flex justify-content-lg-between justify-content-center align-items-center gap-lg-0 gap-4">
+              <div className="d-flex justify-content-lg-between justify-content-start align-items-center flex-wrap gap-lg-0 gap-4">
                 <div>
                   <h1 className="cabin">Meet Our Great Team</h1>
                   <p className="lato text__gray2">
@@ -28,8 +29,11 @@ const TeamMeet = () => {
                   </button>
                 </div>
               </div>
-              <div className="row mx-0 mt-5 gap-lg-0 gap-3">
-                <div className="col-lg-4">
+              <div className="row mx-0 mt-5 gap-md-0 gap-3">
+                <Link
+                  to="/teamsingle"
+                  className="col-lg-4 col-md-6 text-decoration-none text-reset"
+                >
                   <CompanyDiv
                     title="CEO at Company"
                     transparent
@@ -41,8 +45,11 @@ const TeamMeet = () => {
                     //   brandimg={brandimg1}
                     bgImg={Person1}
                   />
-                </div>
-                <div className="col-lg-4">
+                </Link>
+                <Link
+                  to="/teamsingle"
+                  className="col-lg-4 col-md-6  text-decoration-none text-reset"
+                >
                   <CompanyDiv
                     title="Manager"
                     transparent
@@ -54,8 +61,11 @@ const TeamMeet = () => {
                     //   brandimg={brandimg2}
                     bgImg={Person2}
                   />
-                </div>
-                <div className="col-lg-4">
+                </Link>
+                <Link
+                  to="/teamsingle"
+                  className="col-lg-4 col-md-6 mt-md-4 mt-lg-0 text-decoration-none text-reset"
+                >
                   <CompanyDiv
                     title="CEO at Company"
                     transparent
@@ -67,8 +77,11 @@ const TeamMeet = () => {
                     //   brandimg={brandimg3}
                     bgImg={Person1}
                   />
-                </div>
-                <div className="col-lg-4 mt-lg-4">
+                </Link>
+                <Link
+                  to="/teamsingle"
+                  className="col-lg-4 col-md-6 mt-md-4 text-decoration-none text-reset"
+                >
                   <CompanyDiv
                     title="CEO at Company"
                     transparent
@@ -80,8 +93,11 @@ const TeamMeet = () => {
                     //   brandimg={brandimg1}
                     bgImg={Person1}
                   />
-                </div>
-                <div className="col-lg-4 mt-lg-4">
+                </Link>
+                <Link
+                  to="/teamsingle"
+                  className="col-lg-4 col-md-6 mt-md-4 text-decoration-none text-reset"
+                >
                   <CompanyDiv
                     title="Manager"
                     transparent
@@ -93,8 +109,11 @@ const TeamMeet = () => {
                     //   brandimg={brandimg2}
                     bgImg={Person2}
                   />
-                </div>
-                <div className="col-lg-4 mt-lg-4">
+                </Link>
+                <Link
+                  to="/teamsingle"
+                  className="col-lg-4 col-md-6 mt-md-4 text-decoration-none text-reset"
+                >
                   <CompanyDiv
                     title="CEO at Company"
                     transparent
@@ -106,7 +125,7 @@ const TeamMeet = () => {
                     //   brandimg={brandimg3}
                     bgImg={Person1}
                   />
-                </div>
+                </Link>
               </div>
             </div>
           </div>

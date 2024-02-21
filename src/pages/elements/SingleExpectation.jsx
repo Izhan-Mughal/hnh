@@ -41,7 +41,7 @@ const SingleExpectation = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-xxl"></div>
+                <div className="col-xxl d-lg-none d-xxl-block"></div>
                 <div className="col-lg-5">
                   <div className="d-flex justify-content-lg-end justify-content-center">
                     <img src={expectationImg} className="img-fluid" alt="" />

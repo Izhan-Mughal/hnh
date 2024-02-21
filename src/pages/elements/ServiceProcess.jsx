@@ -9,7 +9,7 @@ const ServiceProcess = () => {
         <div className="container">
           <div className="row mx-0 justify-content-center">
             <div className="col-xl-11 col-xxl-9">
-              <div className="row mx-0 gap-lg-0 gap-4">
+              <div className="row mx-0 gap-lg-0 gap-4 align-items-center">
                 <div className="col-lg-6">
                   <img src={ServiceProcessImg} alt="" className="img-fluid" />
                 </div>

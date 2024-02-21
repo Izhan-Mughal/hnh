@@ -8,6 +8,7 @@ import brandimg1 from "../../assets/img/fortune.png";
 import brandimg2 from "../../assets/img/brand.png";
 import brandimg3 from "../../assets/img/point.png";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 const AboutTeam = () => {
   return (
     <section className="py-5 bg__secondary2">
@@ -25,8 +26,11 @@ const AboutTeam = () => {
               <br className="d-xl-block d-none" /> is focused on excellent
               productivity, customer satisfaction, respect for team.
             </p>
-            <div className="row mx-0 mt-5 gap-lg-0 gap-3">
-              <div className="col-lg-4">
+            <div className="row mx-0 mt-5 gap-md-0 gap-3">
+              <Link
+                to="/team"
+                className="col-lg-4 col-md-6 text-reset text-decoration-none"
+              >
                 <CompanyDiv
                   title="CEO at Company"
                   transparent
@@ -38,8 +42,8 @@ const AboutTeam = () => {
                   //   brandimg={brandimg1}
                   bgImg={Person1}
                 />
-              </div>
-              <div className="col-lg-4">
+              </Link>
+              <div className="col-lg-4 col-md-6">
                 <CompanyDiv
                   title="Manager"
                   transparent
@@ -52,7 +56,7 @@ const AboutTeam = () => {
                   bgImg={Person2}
                 />
               </div>
-              <div className="col-lg-4">
+              <div className="col-lg-4 col-md-6 mt-md-3 mt-lg-0">
                 <CompanyDiv
                   title="CEO at Company"
                   transparent

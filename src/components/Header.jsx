@@ -35,28 +35,28 @@ const Header = (props) => {
               <Nav.Link
                 as={Link}
                 className={props.active == 2 ? "nav__active" : ""}
-                to="/Services"
+                to="/services"
               >
                 Services
               </Nav.Link>
               <Nav.Link
                 as={Link}
                 className={props.active == 3 ? "nav__active" : ""}
-                to="/Work"
+                to="/casestudy"
               >
                 Work
               </Nav.Link>
               <Nav.Link
                 as={Link}
                 className={props.active == 4 ? "nav__active" : ""}
-                to="/Pages"
+                to="/blog"
               >
                 Pages
               </Nav.Link>
               <Nav.Link
                 as={Link}
                 className={props.active == 5 ? "nav__active" : ""}
-                to="/Contact"
+                to="/contact"
               >
                 Contact
               </Nav.Link>

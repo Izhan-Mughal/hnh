@@ -7,6 +7,7 @@ import service5 from "../../assets/img/service5.png";
 import service6 from "../../assets/img/service6.png";
 import ServiceData from "../../utils/service.json";
 import Badge from "../../components/Badge";
+import { Link } from "react-router-dom";
 const HomeServices = () => {
   // console.log(ServiceData);
   const serviceLogos = [
@@ -37,7 +38,11 @@ const HomeServices = () => {
 
               <div className="row mx-0 justify-content-center">
                 {serviceLogos.map((logo, index) => (
-                  <div key={index} className="col-lg-4 my-2 ">
+                  <Link
+                    to="/servicesingle"
+                    key={index}
+                    className="col-lg-4 my-2 text-decoration-none d-block"
+                  >
                     <div className="service__cards">
                       <img
                         src={logo}
@@ -53,7 +58,7 @@ const HomeServices = () => {
                         {ServiceData[index].description}
                       </p>
                     </div>
-                  </div>
+                  </Link>
                 ))}
               </div>
             </div>

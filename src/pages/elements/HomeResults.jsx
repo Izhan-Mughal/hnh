@@ -26,22 +26,22 @@ const HomeResults = () => {
                 Hear how we have supported a selection of our customers'
                 inspiring growth journeys.
               </p>
-              <div className="row mx-0 mt-5 gap-lg-0 gap-3">
-                <div className="col-lg-4">
+              <div className="row mx-0 mt-5 gap-md-0 gap-3">
+                <div className="col-lg-4 col-md-6">
                   <CompanyDiv
                     title="CEO at Company"
                     brandimg={brandimg1}
                     bgImg={Person1}
                   />
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4 col-md-6">
                   <CompanyDiv
                     title="Manager"
                     brandimg={brandimg2}
                     bgImg={Person2}
                   />
                 </div>
-                <div className="col-lg-4">
+                <div className="col-lg-4 mt-md-3 mt-lg-0 col-md-6">
                   <CompanyDiv
                     title="CEO at Company"
                     brandimg={brandimg3}

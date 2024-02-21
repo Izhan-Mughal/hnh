@@ -91,7 +91,7 @@ const BlogSingleContent = () => {
                 </div>
               </div>
               <div className="row mx-0 mt-4">
-                <div className="col-xl-9 col-xxl-7">
+                <div className="col-xl-9 px_0 col-xxl-7">
                   <BlogReferral />
                 </div>
               </div>

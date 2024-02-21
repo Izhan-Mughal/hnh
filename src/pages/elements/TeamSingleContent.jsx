@@ -13,13 +13,13 @@ const TeamSingleContent = () => {
         <div className="container">
           <div className="row mx-0 justify-content-center">
             <div className="col-xl-11 col-xxl-9">
-              <div className="row mx-0 align-items-center">
+              <div className="row mx-0 align-items-center gap-lg-0 gap-4">
                 <div className="col-lg-6 pe-lg-5 ">
                   <img src={TeamSingleImg} className="img-fluid" alt="" />
                 </div>
                 <div className="col-lg-6">
-                  <div className="row mx-0 gap-lg-0 gap-4">
-                    <div className="col-lg-6 px-0">
+                  <div className="row mx-0 gap-lg-0 gap-0">
+                    <div className="col-lg-6 px-0 text-lg-start text-center">
                       <p className="fs-4 fw-bold cabin mb-0">Sarah Jasmine</p>
                       <p className="text__gray2 lato">CEO at Company</p>
                     </div>
@@ -40,7 +40,7 @@ const TeamSingleContent = () => {
                       </div>
                     </div>
                   </div>
-                  <p className="lato mb-4">
+                  <p className="lato mb-4 mt-lg-0 mt-4">
                     Duis aute irure dolor in reprehenderit in voluptate velit
                     esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
                     occaecat cupidatat non proident, sunt in culpa qui. Lorem

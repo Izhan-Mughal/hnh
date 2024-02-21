@@ -13,7 +13,7 @@ const AboutClients = () => {
             <div className="col-xl-11 col-xxl-9">
               <div className="d-flex justify-content-between align-items-center flex-wrap">
                 <div>
-                  <Badge color="primary" content="Growing with our clients" />
+                  <Badge color="secondary" content="Growing with our clients" />
                   <h1 className="cabin mt-2">Our core values & principles</h1>
                   <p className="lato mb-0">
                     Capitalize on low hanging fruit to identify a ballpark value
