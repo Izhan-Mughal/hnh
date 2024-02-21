@@ -1,0 +1,32 @@
+[
+    {
+        "icon":"service1.png",
+        "title":"Audit & Evaluation",
+        "description":"Get help from Alex Moore, a professional business coach with advanced experience on growth and business scaling"
+    },
+    {
+        "icon":"service2.png",
+        "title":"Financial Projections",
+        "description":"Get help from Alex Moore, a professional business coach with advanced experience on growth and business scaling"
+    },
+    {
+        "icon":"service3.png",
+        "title":"Funds and investments",
+        "description":"Get help from Alex Moore, a professional business coach with advanced experience on growth and business scaling"
+    },
+    {
+        "icon":"service4.png",
+        "title":"Finance & Restructuring",
+        "description":"Get help from Alex Moore, a professional business coach with advanced experience on growth and business scaling"
+    },
+    {
+        "icon":"service5.png",
+        "title":"Taxes & Efficiency",
+        "description":"Get help from Alex Moore, a professional business coach with advanced experience on growth and business scaling"
+    },
+    {
+        "icon":"service6.png",
+        "title":"Investment banking",
+        "description":"Get help from Alex Moore, a professional business coach with advanced experience on growth and business scaling"
+    }
+]
